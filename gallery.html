@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery — Blush Beauty Studio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="concept-banner">
+      Fictional brand — <strong>portfolio concept project</strong>, not a real
+      business.
+    </div>
+
+    <header>
+      <nav class="site-nav">
+        <a href="index.html" class="brand">Blush</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="bridal.html">Bridal</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="contact.html" class="nav-cta-mobile"
+              >Book an Appointment</a
+            >
+          </li>
+        </ul>
+        <a href="contact.html" class="nav-cta">Book an Appointment</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section tight" style="padding-bottom: 20px">
+        <div class="wrap reveal" style="max-width: 600px">
+          <h1 style="font-size: clamp(2.4rem, 4.6vw, 3.2rem)">
+            Beauty in every detail.
+          </h1>
+          <p
+            style="
+              margin-top: 16px;
+              color: var(--plum-soft);
+              font-size: 1.05rem;
+            "
+          >
+            Explore a selection of beauty, styling and studio moments.
+          </p>
+        </div>
+      </section>
+
+      <section class="section tight">
+        <div class="wrap">
+          <div class="filter-row reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="hair">Hair</button>
+            <button class="filter-btn" data-filter="makeup">Makeup</button>
+            <button class="filter-btn" data-filter="bridal">Bridal</button>
+            <button class="filter-btn" data-filter="studio">Studio</button>
+          </div>
+
+          <div class="masonry reveal">
+            <div class="g-item tall" data-category="hair">
+              <img
+                src="https://i.pinimg.com/736x/d3/ab/fb/d3abfb6e992885ef8bb3c990f3d3ffac.jpg"
+                alt="Hair styling result with voluminous curls"
+              />
+            </div>
+            <div class="g-item short" data-category="makeup">
+              <img
+                src="https://i.pinimg.com/736x/eb/2c/19/eb2c19265abc85b63869af74262c87a5.jpg"
+                alt="Soft glam makeup look close-up"
+              />
+            </div>
+            <div class="g-item" data-category="bridal">
+              <img
+                src="https://i.pinimg.com/736x/26/98/bd/2698bd074355de6ec0e1376d5baa021f.jpg"
+                alt="Bridal hairstyle with floral accessory"
+              />
+            </div>
+            <div class="g-item short" data-category="studio">
+              <img
+                src="https://i.pinimg.com/1200x/7e/1a/aa/7e1aaaa5ab6fdded2ce11e2b509630d1.jpg"
+                alt="Studio treatment room interior"
+              />
+            </div>
+            <div class="g-item" data-category="hair">
+              <img
+                src="https://i.pinimg.com/736x/be/76/dc/be76dc10c45a1c8f5d93037914830062.jpg"
+                alt="Elegant updo hairstyle"
+              />
+            </div>
+            <div class="g-item tall" data-category="bridal">
+              <img
+                src="https://i.pinimg.com/736x/0b/c3/bd/0bc3bda9bf6f4aa8222e12927c7a3496.jpg"
+                alt="Bride with full bridal makeup and hair"
+              />
+            </div>
+            <div class="g-item short" data-category="makeup">
+              <img
+                src="https://i.pinimg.com/736x/3e/33/1e/3e331e33cfaec30de89023ec59c7b769.jpg"
+                alt="Everyday natural makeup look"
+              />
+            </div>
+            <div class="g-item" data-category="studio">
+              <img
+                src="https://i.pinimg.com/736x/03/d8/15/03d8151b75558b1c635038ac4a17cbf9.jpg"
+                alt="Styling station with mirror and tools"
+              />
+            </div>
+            <div class="g-item short" data-category="hair">
+              <img
+                src="https://i.pinimg.com/736x/d4/d0/54/d4d054b0194c8dde289150459bb512f3.jpg"
+                alt="Blowout hair styling finish"
+              />
+            </div>
+            <div class="g-item" data-category="makeup">
+              <img
+                src="https://i.pinimg.com/736x/a1/c7/34/a1c7347176ea424544e2c46c52bb4d0d.jpg"
+                alt="Party makeup with bold eye look"
+              />
+            </div>
+            <div class="g-item tall" data-category="studio">
+              <img
+                src="https://i.pinimg.com/736x/53/a1/2b/53a12bb19e731da4cd1311b7516a7d30.jpg"
+                alt="Salon waiting lounge with soft decor"
+              />
+            </div>
+            <div class="g-item short" data-category="bridal">
+              <img
+                src="https://i.pinimg.com/736x/bf/21/5f/bf215f26a55214949bca19d43a667aac.jpg"
+                alt="Bridal beauty trial session in progress"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-top">
+        <div class="footer-brand">
+          <h3>Blush</h3>
+          <p>Beauty, designed around you.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a><a href="bridal.html">Bridal</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <a href="#">Instagram</a><a href="#">Facebook</a
+          ><a href="#">Pinterest</a>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <p>
+          © 2026 Blush Beauty Studio. Concept project created for portfolio
+          demonstration.
+        </p>
+      </div>
+    </footer>
+
+    <!-- lightbox -->
+    <div class="lightbox">
+      <button class="lb-close" aria-label="Close">&times;</button>
+      <button class="lb-prev" aria-label="Previous">&#8249;</button>
+      <img src="" alt="" />
+      <button class="lb-next" aria-label="Next">&#8250;</button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
