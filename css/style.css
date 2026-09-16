@@ -61,6 +61,18 @@ ul {
   list-style: none;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  width: 120px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
